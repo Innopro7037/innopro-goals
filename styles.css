@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  border-radius: 5% 0 5% 0;
+  box-shadow: 4px 4px 1px #21002b50;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.date-time {
+  background-color: #9900cc;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-time h4 {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.2rem 0;
+}
+
+main {
+  max-width: 768px;
+  margin: auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 2rem 0;
+}
+
+.hero-info {
+  padding: 3rem;
+}
+
+.hero-info h5 {
+  font-size: 0.8rem;
+  color: #9900cc;
+}
+
+.hero-info h1 {
+  margin-bottom: 0.2rem;
+}
+
+.hero-info p {
+  padding: 0.4rem 0.7rem;
+  font-size: 0.95rem;
+  background-color: #e8deeb52;
+  border: solid #9900cc86 1px;
+  max-width: fit-content;
+  border-radius: 3rem;
+}
+
+.useful-links h2 {
+  font-size: 1rem;
+  padding: 1.5rem 0 0;
+  color: #0e0013d7;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  text-align: center;
+  padding: 0.4rem 0.7rem;
+  text-decoration: none;
+  color: black;
+  font-size: 0.95rem;
+  background-color: #e8deeb52;
+  border: solid #9900cc86 1px;
+  border-radius: 3rem;
+  margin: 0.4rem 0;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.goal-section h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-goal-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card {
+  border-radius: 1rem;
+  padding: 0.7rem 1rem;
+  background-color: #e8deeb52;
+  border: solid #9900cc86 1px;
+  margin: 0.5rem;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  padding-bottom: 0.7rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+}
+
+footer {
+  max-width: 768px;
+  margin: 2rem auto 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.7rem;
+  padding: 2rem;
+}
+
+span {
+  color: #9900cc;
+}
+
+@media screen and (max-width: 840px) {
+  .hero {
+    min-height: 30vh;
+    padding: 2rem 0;
+  }
+  .tech-goal-cards {
+    grid-template-columns: auto;
+    margin: 2rem;
+  }
+
+  .goal-section h1 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .goal-section h1 {
+    padding: 0 2rem;
+  }
+}
