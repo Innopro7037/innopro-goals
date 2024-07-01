@@ -153,6 +153,15 @@ span {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
   }
+
+  .card h2 {
+    font-size: 1rem;
+    padding-bottom: 0.7rem;
+  }
+
+  .card p {
+    font-size: 0.75rem;
+  }
 }
 
 @media screen and (max-width: 605px) {
@@ -164,5 +173,10 @@ span {
   }
   .goal-section h1 {
     padding: 0 2rem;
+  }
+
+  footer p {
+    font-size: 0.45rem;
+    padding: 2rem;
   }
 }
